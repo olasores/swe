@@ -22,7 +22,7 @@
             </p>
             <!-- Buttons -->
             <div class="mt-6 flex flex-wrap justify-center md:justify-start gap-4">
-              <button class="bg-[#AE93BD] text-white px-6 py-2 rounded-lg hover:bg-blue-700">
+              <button class="bg-[#AE93BD] text-white px-6 py-2 rounded-lg hover:bg-[#9554BA] ">
                 Join Us
               </button>
               <button class="border-2 border-black px-6 py-2 rounded-lg hover:bg-gray-300">
