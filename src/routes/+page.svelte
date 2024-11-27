@@ -4,6 +4,9 @@
  import Navbar from "../components/Navbar.svelte";
  import Home  from "../components/Home.svelte";
 
+ import Footer from "../components/Footer.svelte";
+
+
 </script>
 
 
@@ -11,6 +14,8 @@
     <Navbar />
 
     <Home />
+
+    <Footer />
 
 </main>
 
