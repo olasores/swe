@@ -1,5 +1,6 @@
 <script>
 	import { P } from "flowbite-svelte";
+  
 </script>
 
 <main>
@@ -33,8 +34,8 @@
           <!-- Image Section -->
           <div class="flex justify-center">
             <img
-              src="/assets/heroimg.png"
-              alt="hero-img"
+              src="/assets/board.jpg"
+              alt="board-img"
               class="w-full max-w-md md:max-w-lg rounded-lg shadow-lg"
             />
           </div>
@@ -66,9 +67,11 @@
             </p>
             <!-- Button -->
             <div class="mt-6">
-              <button class="bg-[#AE93BD] text-white px-6 py-2 rounded-lg shadow hover:bg-[#9554BA] transition-colors">
+              
+              <a href="/about" class="bg-[#AE93BD] text-white px-6 py-2 rounded-lg shadow hover:bg-[#9554BA] transition-colors">
                 Learn More
-              </button>
+              </a>
+              
             </div>
           </div>
         </div>
@@ -76,7 +79,7 @@
     </section>
 
     <!-- Upcoming Events Section -->
-    <section class="py-16 mt-20">
+    <section class="py-16 mt-20  bg-purple-50">
         <div class="container mx-auto px-6 md:px-10">
         <h1 class="font-bold text-3xl md:text-4xl leading-tight text-gray-800 mb-3 ">
             Upcoming Events: Fall 2024
@@ -140,9 +143,9 @@
     
         <!-- View All Events Button -->
         <div class="mt-2 text-left">
-            <button class="bg-[#AE93BD] text-white px-6 py-2 rounded-lg shadow hover:bg-[#9554BA] transition-colors">
+          <a href="/event" class="bg-[#AE93BD] text-white px-6 py-2 rounded-lg shadow hover:bg-[#9554BA] transition-colors">
             View All Events
-            </button>
+          </a>
         </div>
     </div>
     </section>
