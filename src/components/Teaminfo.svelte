@@ -2,7 +2,7 @@
     import { teams } from "$lib/teams";
   </script>
   
-  <main class=" bg-purple-50 py-10">
+  <main class="  py-10">
     <div class="container mx-auto px-4">
       <h1 class="text-center text-2xl font-bold text-gray-800 mb-10">Meet Our Team</h1>
       <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

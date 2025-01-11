@@ -35,7 +35,7 @@
 
     <!-- board section  -->
 
-    <section  class="py-16 mt-20"> 
+    <section  class=" bg-purple-50 py-16 mt-20"> 
        <Teaminfo />
 
     </section>
