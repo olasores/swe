@@ -8,7 +8,7 @@
   
   <Navbar class="border-b-2 ">
     <NavBrand href="/">
-      <img src="/assets/logo.png" class="me-3 h-6 sm:h-20" alt="Flowbite Logo" />
+      <img src="/assets/logo.png" class="h-12 sm:h-16 md:h-20" alt="Flowbite Logo" />
     </NavBrand>
     <NavHamburger />
     <NavUl {activeUrl} {activeClass} {nonActiveClass}>
