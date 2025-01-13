@@ -29,7 +29,7 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
             {#each pastevents as event}
-            <div class="mb-10 shawdow-d overflow-hidden">
+            <div class="mb-10 shawdow-d overflow-hidden transition-transform transform hover:scale-105">
                 <a href="/">
                     <img class="rounded-lg"  src={event.image} alt={event.title}/>
                 </a>
