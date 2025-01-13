@@ -85,9 +85,9 @@
             Upcoming Events: Spring 2025
         </h1>
         
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4  ">
 
-            <div class="max-w-sm  dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm  dark:bg-gray-800 dark:border-gray-700  transition-transform transform hover:scale-105">
                 <a href="/">
                     <img class="rounded-lg mb-2" src="/assets/cards.webp" alt="" />
                 </a>
@@ -99,7 +99,7 @@
                 </div>
             </div>
 
-            <div class="max-w-sm ">
+            <div class="max-w-sm  transition-transform transform hover:scale-105">
                 <a href="/">
                     <img class="rounded-lg mb-2" src="/assets/dfest.webp" alt="" />
                 </a>
@@ -117,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="max-w-sm ">
+            <div class="max-w-sm  transition-transform transform hover:scale-105 ">
                 <a href="/">
                     <img class="rounded-lg mb-2" src="/assets/painting.png" alt="" />
                 </a>
