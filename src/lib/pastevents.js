@@ -1,33 +1,35 @@
 export const pastevents = [
     {
-        title: 'Game Night', 
-        date: 'September 13, 2024', 
-        image: 'assets/game.png'
+        title: 'DiscoverFest', 
+        date: 'September 8, 2024', 
+        image: 'assets/dfest.webp'
     }, 
     {
-        title: 'Game Night', 
-        date: 'September 13, 2024', 
-        image: 'assets/game.png'
+        title: 'Buzzing with Swe', 
+        date: 'September 12, 2024', 
+        image: 'assets/buzz.jpg'
     }, 
     {
-        title: 'Game Night', 
-        date: 'September 13, 2024', 
-        image: 'assets/game.png'
+        title: 'Cards Making', 
+        date: 'September 19, 2024', 
+        image: 'assets/cardf.jpeg'
+    }, 
+   
+    {
+        title: 'Figma Workshop', 
+        date: 'September 26, 2024', 
+        image: 'assets/img-6.webp'
+    }, 
+   
+    {
+        title: 'Lockpicking', 
+        date: 'October 11, 2024', 
+        image: 'assets/lp.jpg'
     }, 
     {
-        title: 'Game Night', 
-        date: 'September 13, 2024', 
-        image: 'assets/game.png'
-    }, 
-    {
-        title: 'Game Night', 
-        date: 'September 13, 2024', 
-        image: 'assets/game.png'
-    }, 
-    {
-        title: 'Game Night', 
-        date: 'September 13, 2024', 
-        image: 'assets/game.png'
-    }, 
+        title: 'Linkedin Workshop', 
+        date: 'October 17, 2024', 
+        image: 'assets/lin.jpg'
+    },
     
 ]

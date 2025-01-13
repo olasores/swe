@@ -22,8 +22,8 @@
               <div class="flex justify-center">
                 <img 
                   class="w-full max-w-sm md:max-w-md rounded-lg shadow-lg" 
-                  src="/assets/aboutimg.png" 
-                  alt="About Us Image"
+                  src="/assets/img-4.webp" 
+                  alt="our-mission"
                 />
               </div>
               <!-- Text Section -->

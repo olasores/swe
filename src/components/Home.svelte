@@ -34,7 +34,7 @@
           <!-- Image Section -->
           <div class="flex justify-center">
             <img
-              src="/assets/board.jpg"
+              src="/assets/img-3.webp"
               alt="board-img"
               class="w-full max-w-md md:max-w-lg rounded-lg shadow-lg"
             />
@@ -51,8 +51,8 @@
           <div class="flex justify-center">
             <img 
               class="w-full max-w-sm md:max-w-md rounded-lg shadow-lg" 
-              src="/assets/aboutimg.png" 
-              alt="About Us Image"
+              src="/assets/img-2.webp" 
+              alt="Abt-img"
             />
           </div>
           <!-- Text Section -->
@@ -82,7 +82,7 @@
     <section class="py-16 mt-20  bg-purple-50">
         <div class="container mx-auto px-6 md:px-10">
         <h1 class="font-bold text-3xl md:text-4xl leading-tight text-gray-800 mb-3 ">
-            Upcoming Events: Fall 2024
+            Upcoming Events: Spring 2025
         </h1>
         
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ">

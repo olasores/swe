@@ -11,7 +11,7 @@
         Upcoming Events: Spring 2025
       </h1>
       <p class="text-lg text-gray-600">Weekly Meetings: Wednesday at 2:00 PM in ECS 200</p>
-      <img class="w-full max-w-3xl rounded-lg shadow-lg" src="/assets/aboutimg.png" alt="Upcoming Events Image" />
+      <img class="w-full max-w-3xl rounded-lg shadow-lg" src="/assets/img-5.webp" alt="Upcoming-img" />
     </div>
   </section>
 
@@ -19,7 +19,7 @@
 
     <section class=" flex flex-col items-center justify-center mt-20  bg-purple-50">
         <div class="text-center mb-10">
-            <h1 class="font-extrabold text-3xl md:text-4xl  leading-tight text-gray-800">
+            <h1 class="mt-5 font-extrabold text-3xl md:text-4xl  leading-tight text-gray-800">
               Past Events
             </h1>
             <p class="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -29,9 +29,9 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
             {#each pastevents as event}
-            <div class="mb-10 rounded-lg shawdow-d overflow-hidden">
+            <div class="mb-10 shawdow-d overflow-hidden">
                 <a href="/">
-                    <img src={event.image} alt={event.title}/>
+                    <img class="rounded-lg"  src={event.image} alt={event.title}/>
                 </a>
                 <div class="mt-2">
                     <a href="/">
