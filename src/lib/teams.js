@@ -42,7 +42,7 @@ export const teams = [
 }, 
 {
    name: 'Belen', 
-   role: 'Secretarg', 
+   role: 'Secretary', 
    image: '/assets/belen.jpeg', 
 }, 
 {
