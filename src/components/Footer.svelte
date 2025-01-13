@@ -1,17 +1,36 @@
 <script>
-    import { Footer, FooterCopyright, FooterLinkGroup, FooterBrand, FooterLink } from 'flowbite-svelte';
-  </script>
-  
-  <Footer footerType="logo" class= "bg-[#AE93BD]" >
-    <!-- <div class="sm:flex sm:items-center sm:justify-between">
-      <FooterBrand href="https://flowbite.com" src="/images/flowbite-svelte-icon-logo.svg" alt="Flowbite Logo" name="Flowbite" />
-      <FooterLinkGroup ulClass="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
-        <FooterLink href="/">About</FooterLink>
-        <FooterLink href="/">Privacy Policy</FooterLink>
-        <FooterLink href="/">Licensing</FooterLink>
-        <FooterLink href="/">Contact</FooterLink>
-      </FooterLinkGroup>
+  import { Footer } from 'flowbite-svelte';
+  import { InstagramSolid, DiscordSolid, FacebookSolid, MailBoxSolid } from 'flowbite-svelte-icons';
+</script>
+
+<Footer class=" text-white py-8 bg-[#AE93BD]">
+  <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+    <!-- Left Section: SWE Info -->
+    <div class="text-center md:text-left">
+      <h3 class="text-lg font-semibold">SWE @ CSUF 2025</h3>
+      <!-- <p class="text-sm mt-1">Aspiring Software Engineer with a passion for web development and data science.</p> -->
     </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> -->
-    <FooterCopyright  href="/" by="SWE" />
-  </Footer>
+
+    <!-- Right Section: Contact and Social Links -->
+    <div class="mt-4 md:mt-0 flex space-x-6">
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/csufswe/?hl=en" target="_blank" class="hover:text-gray-400">
+        <InstagramSolid class="w-6 h-6" />
+      </a>
+
+      <!-- Discord -->
+      <a href="https://discord.gg/NJ3pPnPk" target="_blank" class="hover:text-gray-400">
+        <DiscordSolid class="w-6 h-6" />
+      </a>
+
+      <!-- <a href="https://facebook.com" target="_blank" class="hover:text-gray-400">
+        <FacebookSolid class="w-6 h-6" />
+      </a> -->
+
+      <!-- Email -->
+      <a href="mailto:swecsuf.president@gmail.com" class="hover:text-gray-400">
+        <MailBoxSolid class="w-6 h-6" />
+      </a>
+    </div>
+  </div>
+</Footer>
