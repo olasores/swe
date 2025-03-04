@@ -1,6 +1,6 @@
 <script>
 	import { P } from "flowbite-svelte";
-  
+  import Events2025 from "./Events2025.svelte";
 </script>
 
 <main>
@@ -79,77 +79,11 @@
     </section>
 
     <!-- Upcoming Events Section -->
-    <section class="py-16 mt-20  bg-purple-50">
-        <div class="container mx-auto px-6 md:px-10">
-        <h1 class="font-bold text-3xl md:text-4xl leading-tight text-gray-800 mb-3 ">
-            Upcoming Events: Spring 2025
-        </h1>
+     <section class="">
+        <Events2025 />
         
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4  ">
-
-            <div class="max-w-sm  dark:bg-gray-800 dark:border-gray-700  transition-transform transform hover:scale-105">
-                <a href="/">
-                    <img class="rounded-lg mb-2" src="/assets/cards.webp" alt="" />
-                </a>
-                <div class="">
-                    <a href="/">
-                        <h5 class="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cards Making </h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">January 20, 2025</p>
-                </div>
-            </div>
-
-            <div class="max-w-sm  transition-transform transform hover:scale-105">
-                <a href="/">
-                    <img class="rounded-lg mb-2" src="/assets/dfest.webp" alt="" />
-                </a>
-                <div class="">
-                    <a href="/">
-                        <h5 class="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">DiscoverFest</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">August 13, 2024</p>
-                    <!-- <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a> -->
-                </div>
-            </div>
-
-            <div class="max-w-sm  transition-transform transform hover:scale-105 ">
-                <a href="/">
-                    <img class="rounded-lg mb-2" src="/assets/painting.png" alt="" />
-                </a>
-                <div class="">
-                    <a href="/">
-                        <h5 class="mb-0 text-2xl font-bold tracking-tight text-gray-900 ">Painting</h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">September 12,2024</p>
-                    <!-- <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a> -->
-                </div>
-        </div>
-
-
+     </section>
   
-
-
-
-    
-        <!-- View All Events Button -->
-        <div class="mt-2 text-left">
-          <a href="/event" class="bg-[#AE93BD] text-white px-6 py-2 rounded-lg shadow hover:bg-[#9554BA] transition-colors">
-            View All Events
-          </a>
-        </div>
-    </div>
-    </section>
-
     
     
     

@@ -1,5 +1,24 @@
 <script>
-    import { pastevents } from "$lib/pastevents";
+    import { pastevents } from "$lib/pastevents"; 
+	import { tick } from "svelte";
+    import EventCalendar from "./EventCalendar.svelte";
+
+    export const springevents = [
+    { title: 'DiscoverFest', date: 'Jan 29, 2025', image: 'assets/dfest.webp' },
+    { title: 'Welcome Back Event', date: 'Feb 12, 2025', image: 'assets/buzz.jpg' },
+    { title: 'Titan Rover X SWE: Arduino Workshop ', date: 'Feb 25, 2025', image: 'assets/lin.jpg' },
+    { title: 'Robotics Project Meeting', date: 'Feb 26, 2025', image: 'assets/lin.jpg' },
+    { title: 'Photo Card Decoration', date: 'March 5, 2025', image: 'assets/lin.jpg' },
+    { title: 'Soaring to Success:', date: 'March 7, 2025', image: 'assets/lin.jpg' },
+    {title: 'Project Meeting with Jasmine', date: 'March 12, 2025', image: 'assets/lin.jpg'},
+    { title: 'Code & Crush Hackathon', date: 'March 14, 2025', image: 'assets/cardf.jpeg' },
+    { title: 'Women in Tech Speaker Panel Collab with WIBS', date: 'March 19, 2025', image: 'assets/img-6.webp' },
+    { title: 'Project Session', date: 'March 26, 2025', image: 'assets/lp.jpg' },
+    { title: 'WIBS 3D Printing Workshop Collab with WIBS', date: 'March 27, 2025', image: 'assets/lin.jpg' },
+    { title: 'Test Engineer Talk with Angie)', date: 'April 16, 2025', image: 'assets/lin.jpg' },
+    { title: 'Bonfire Potluck End of Year Celebration', date: 'April 28, 2025', image: 'assets/lin.jpg' }
+  ];
+
 
 </script>
 
@@ -12,8 +31,12 @@
       </h1>
       <p class="text-lg text-gray-600">Weekly Meetings: Wednesday at 2:00 PM in ECS 200</p>
       <img class="w-full max-w-3xl rounded-lg shadow-lg" src="/assets/img-5.webp" alt="Upcoming-img" />
+      <h1 class="font-bold text-2xl md:text-3xl p-4">Event Calendar</h1>
+
     </div>
+    <EventCalendar events={springevents} />
   </section>
+
 
 
 

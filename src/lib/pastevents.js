@@ -1,4 +1,5 @@
 export const pastevents = [
+    // fall 2024 events.... update old events here
     {
         title: 'DiscoverFest', 
         date: 'September 8, 2024', 
